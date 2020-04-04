@@ -26,22 +26,19 @@ class TabsTwo extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          <a href="/service">
-                            User experience design <span> - UI/UX</span>
-                          </a>
+                          User experience design <span> - UI/UX</span>
+                          <br></br>
                           Delight the user and make it work.
                         </li>
                         <li>
-                          <a href="/service">
-                            Web and user interface design
-                            <span> - Development</span>
-                          </a>
+                          Web and user interface design
+                          <span> - Development</span>
+                          <br></br>
                           Websites, web experiences
                         </li>
                         <li>
-                          <a href="/service">
-                            Interaction design <span> - Animation</span>
-                          </a>
+                          Interaction design <span> - Animation</span>
+                          <br></br>
                           Create stunning animations.
                         </li>
                       </ul>
@@ -52,22 +49,19 @@ class TabsTwo extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          <a href="/service">
-                            AFC Sushi<span> - SKN LLC</span>
-                          </a>{' '}
+                          AFC Sushi<span> - SKN LLC</span>
+                          <br></br>
                           2018 - Current
                         </li>
                         <li>
-                          <a href="/service">
-                            Team Member<span> - CAVA</span>
-                          </a>{' '}
+                          Team Member<span> - CAVA</span>
+                          <br></br>
                           2018 - 2019
                         </li>
                         <li>
-                          <a href="/service">
-                            Customer Service Clerk
-                            <span> - Harris Teeter </span>
-                          </a>{' '}
+                          Customer Service Clerk
+                          <span> - Harris Teeter </span>
+                          <br></br>
                           2015- 2018
                         </li>
                       </ul>
@@ -78,24 +72,21 @@ class TabsTwo extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          <a href="/service">
-                            Information Technology (BS)
-                            <span> - George Mason University, Fairfax, VA</span>
-                          </a>{' '}
+                          Information Technology (BS)
+                          <span> - George Mason University, Fairfax, VA</span>
+                          <br></br>
                           2021
                         </li>
                         <li>
-                          <a href="/service">
-                            CompTIA A+
-                            <span> - CompTIA </span>
-                          </a>{' '}
+                          CompTIA A+
+                          <span> - CompTIA </span>
+                          <br></br>
                           2020
                         </li>
                         <li>
-                          <a href="/service">
-                            CompTIA Security+
-                            <span> - CompTIA </span>
-                          </a>{' '}
+                          CompTIA Security+
+                          <span> - CompTIA </span>
+                          <br></br>
                           2020
                         </li>
                       </ul>

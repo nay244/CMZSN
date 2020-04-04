@@ -20,10 +20,13 @@ class Contact extends Component {
                 <h2 className="title">{this.props.contactTitle}</h2>
                 <p className="description">
                   I am available for freelance work. Connect with me via phone:{' '}
-                  <a href="tel:+571266973">(571) 266-9673</a> or email:
+                  <a href="tel:+571266973">
+                    <span class="contact-links">(571) 266-9673</span>
+                  </a>{' '}
+                  or email:
                   <a href="mailto:naaay.naing@gmail.com">
                     {' '}
-                    naaay.naing@gmail.com
+                    <span class="contact-links">naaay.naing@gmail.com</span>
                   </a>{' '}
                 </p>
               </div>

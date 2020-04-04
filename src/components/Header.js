@@ -57,9 +57,13 @@ class Header extends Component {
       <header className={`header-area header-style-two header--fixed`}>
         <div className="header-wrapper">
           <div className="header-left d-flex align-items-center">
-            <div className="logo" style={{ height: 50, width: 50 }}>
+            <div className="logo">
               <a href={this.props.homeLink}>
-                <img src={logo} alt="Nay-Logo" />
+                <img
+                  src={logo}
+                  alt="Nay-Logo"
+                  style={{ height: 75, width: 75 }}
+                />
               </a>
             </div>
             <nav className="mainmenunav d-lg-block ml--50">

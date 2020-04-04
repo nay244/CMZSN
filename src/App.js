@@ -12,14 +12,15 @@ import ServiceList from './elements/ServiceList';
 import Background from './assets/images/portfolio-hero.jpg';
 import portfolioImage from './assets/images/about/portfolio-self.png';
 import footerImage from './assets/images/about/footer-pic.gif';
+import NayResume from './assets/images/Nay_Resume.pdf';
 
 const SlideList = [
   {
     textPosition: 'text-left',
     category: 'Welcome to my portfolio!',
     description: '',
-    buttonText: '',
-    buttonLink: '',
+    buttonText: 'Resume',
+    buttonLink: NayResume,
   },
 ];
 const PortfolioLanding = () => {
@@ -31,14 +32,14 @@ const PortfolioLanding = () => {
     <div className="active-dark">
       <Helmet pageTitle="Nay" />
 
-      <Header homeLink="/" />
+      <Header homeLink="#home" />
       {/* Start Slider Area   */}
       <div id="home" className="fix">
         <div className="slider-wrapper">
           {/* Start Single Slide */}
           {SlideList.map((value, index) => (
             <div
-              className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image"
+              className="slide personal-portfolio-slider slider-parallax slider-style-3 d-flex align-items-center justify-content-center bg_image"
               key={index}
               style={{
                 backgroundImage: `url("${Background}")`,
@@ -67,6 +68,8 @@ const PortfolioLanding = () => {
                           <a
                             className="rn-button-style--2 btn-primary-color"
                             href={`${value.buttonLink}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
                           >
                             {value.buttonText}
                           </a>
@@ -173,7 +176,12 @@ const PortfolioLanding = () => {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="view-more-btn mt--60 mt_sm--30 text-center">
-                    <a className="rn-button-style--2 btn-solid" href="/blog">
+                    <a
+                      className="rn-button-style--2 btn-solid"
+                      href="https://github.com/nay244?tab=repositories"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <span>View More</span>
                     </a>
                   </div>
