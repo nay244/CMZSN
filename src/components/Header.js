@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { FiX, FiMenu } from 'react-icons/fi';
 import Scrollspy from 'react-scrollspy';
 import logo from '../assets/images/logo/portfolio-logo-2.png';

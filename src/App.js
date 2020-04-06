@@ -129,10 +129,11 @@ const PortfolioLanding = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                  <h2 className="title">My Awesome Service</h2>
+                  <h2 className="title">Current Skill Set</h2>
                   <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
+                    Here are some of the skills I have picked up along the way
+                    on my journey into the IT industry. Always looking to expand
+                    my knowledge.
                   </p>
                 </div>
               </div>

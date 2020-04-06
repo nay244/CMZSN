@@ -1,43 +1,50 @@
 import React, { Component } from 'react';
-import { FiCast, FiLayers, FiUsers, FiMonitor } from 'react-icons/fi';
+import {
+  FiCodesandbox,
+  FiRss,
+  FiMonitor,
+  FiDatabase,
+  FiCloudLightning,
+  FiSmile,
+} from 'react-icons/fi';
 
 const ServiceList = [
   {
-    icon: <FiCast />,
-    title: 'Business Stratagy',
+    icon: <FiCodesandbox />,
+    title: 'Coding',
     description:
-      'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-  },
-  {
-    icon: <FiLayers />,
-    title: 'Website Development',
-    description:
-      'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-  },
-  {
-    icon: <FiUsers />,
-    title: 'Marketing & Reporting',
-    description:
-      'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+      'Experience working with basic functions of various programming languages such as JAVA, HTML, CSS, React, and PHP.',
   },
   {
     icon: <FiMonitor />,
-    title: 'Mobile App Development',
+    title: 'Web Development',
     description:
-      'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+      'Experience working with front-end web applications and development tools such as HTML5, CSS3, JS and React.',
   },
   {
-    icon: <FiUsers />,
-    title: 'Marketing & Reporting',
+    icon: <FiDatabase />,
+    title: 'Databases',
     description:
-      'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+      'Working knowledge of SQL programming and working with database software such as MySQL and PostgreSQL in performing basic search functions and creation of tables.',
   },
   {
-    icon: <FiMonitor />,
-    title: 'Mobile App Development',
+    icon: <FiRss />,
+    title: 'Networks',
     description:
-      'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-  }
+      'Familiar with network architecture and concepts relating to setting up, testing and maintaining network switches and routers in a home environment.',
+  },
+  {
+    icon: <FiSmile />,
+    title: 'Customer Service',
+    description:
+      '4 years of experience in a position where great customer service skills were a necessity in ensuring each customer had an excellent shopping experience and were satisfied with their trip.',
+  },
+  {
+    icon: <FiCloudLightning />,
+    title: 'Logical Thinking',
+    description:
+      'Able to observe and analyze reactions, and feedback from others and then draw conclusions based on input. Justify strategies, actions, and decisions based on the facts.',
+  },
 ];
 
 class Service extends Component {

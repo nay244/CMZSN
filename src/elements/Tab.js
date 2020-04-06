@@ -32,7 +32,7 @@ class TabsTwo extends Component {
                           <span> - UI/UX</span>
                           <br></br>
                           <p>
-                            > Experience implementing front-end web development
+                            > Experience implementing front-end web applications
                             with tools <br></br> such as HTML5, CSS3, JS and
                             React.
                           </p>
