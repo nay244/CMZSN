@@ -19,7 +19,7 @@ class Contact extends Component {
               <div className="section-title text-left mb--50">
                 <h2 className="title">{this.props.contactTitle}</h2>
                 <p className="description">
-                  I am available for freelance work. Connect with me via phone:{' '}
+                  Please feel free to contact me. Connect with me via phone:{' '}
                   <a href="tel:+571266973">
                     <span class="contact-links">(571) 266-9673</span>
                   </a>{' '}
