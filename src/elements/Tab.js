@@ -5,7 +5,7 @@ class TabsTwo extends Component {
   render() {
     let tab1 = 'Main skills',
       tab2 = 'Experience',
-      tab3 = 'Education & Certification';
+      tab3 = 'Education & Certifications';
 
     const { tabStyle } = this.props;
     return (
