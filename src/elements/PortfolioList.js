@@ -7,19 +7,19 @@ const PortfolioListContent = [
   {
     image: imageFaceLoc,
     title: 'FaceLoc',
-    techUsed: 'React, HTMl, CSS',
+    techUsed: 'React, HTMl, CSS, mySQL, Clarifai API',
     src: 'https://faceloc.herokuapp.com/',
   },
   {
     image: imagePortfolioV1,
     title: 'Previous Portfolio',
-    techUsed: 'React, HTMl, CSS',
+    techUsed: 'React, HTMl, CSS, jQuery',
     src: 'https://nay244.github.io/nay_portfolio/',
   },
   {
     image: imageRoboFriends,
     title: 'RoboFriends',
-    techUsed: 'React, HTMl, CSS',
+    techUsed: 'React, HTMl, CSS, Create React App',
     src: 'https://nay244.github.io/robofriends/',
   },
 ];
@@ -49,9 +49,9 @@ class PortfolioList extends Component {
               </div>
               <div className="content">
                 <div className="inner">
-                  <p>{value.techUsed}</p>
+                  <h3>{value.techUsed}</h3>
                   <h4>
-                    <a href="/portfolio-details">{value.title}</a>
+                    <p>{value.title}</p>
                   </h4>
                   <div className="portfolio-button">
                     <a

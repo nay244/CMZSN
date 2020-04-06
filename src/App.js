@@ -26,7 +26,7 @@ const SlideList = [
 const PortfolioLanding = () => {
   let title = 'About Me',
     description =
-      " I am currently a student with aspirations of becoming a Front-end Developer/Systems Engineer. Currently I am a Senior at George Mason University's School of Engineering, working towards my BS in Information Technology. Apart from my education at George Mason, I am taking various Web Development courses on my own free time. I have experience working HTML5, CSS3, JavaScript, jQuery, and Sass. In the future I am planning on learning REACT as well as furthering my knowledge of JAVA.";
+      " I am currently a student with aspirations of becoming a Front-end Developer/Systems Engineer. Currently I am a Senior at George Mason University's School of Engineering, working towards my BS in Information Technology. Apart from my education at George Mason, I am taking various Web Development courses on my own free time.";
 
   return (
     <div className="active-dark">
@@ -160,8 +160,8 @@ const PortfolioLanding = () => {
                   <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                     <h2 className="title">My Latest Projects</h2>
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration.
+                      Here are three of my most recent projects. Want to see
+                      more? Click on that button right below.
                     </p>
                   </div>
                 </div>
@@ -182,7 +182,7 @@ const PortfolioLanding = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <span>View More</span>
+                      <span>View Github</span>
                     </a>
                   </div>
                 </div>

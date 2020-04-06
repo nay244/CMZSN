@@ -51,7 +51,7 @@ class TabsTwo extends Component {
                         <li>
                           AFC Sushi<span> - SKN LLC</span>
                           <br></br>
-                          2018 - Current
+                          2019 - Current
                         </li>
                         <li>
                           Team Member<span> - CAVA</span>
@@ -72,22 +72,24 @@ class TabsTwo extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          Information Technology (BS)
+                          Information Technology ( B.S. )
                           <span> - George Mason University, Fairfax, VA</span>
                           <br></br>
                           2021
                         </li>
                         <li>
-                          CompTIA A+
-                          <span> - CompTIA </span>
+                          Information Technology ( A.S. )
+                          <span>
+                            {' '}
+                            - Northern Virginia Community College, Annandale, VA{' '}
+                          </span>
                           <br></br>
-                          2020
+                          2018
                         </li>
                         <li>
-                          CompTIA Security+
+                          CompTIA A+
                           <span> - CompTIA </span>
-                          <br></br>
-                          2020
+                          <br></br>* In Progress *
                         </li>
                       </ul>
                     </div>
