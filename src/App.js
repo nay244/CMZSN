@@ -11,7 +11,7 @@ import PortfolioList from './elements/PortfolioList';
 import ServiceList from './elements/ServiceList';
 import Background from './assets/images/portfolio-hero.jpg';
 import portfolioImage from './assets/images/about/portfolio-self.png';
-import footerImage from './assets/images/about/footer-pic.gif';
+import footerImage from './assets/images/about/footer-pic.png';
 import NayResume from './assets/images/Nay_Resume.pdf';
 
 const SlideList = [
@@ -26,7 +26,7 @@ const SlideList = [
 const PortfolioLanding = () => {
   let title = 'About Me',
     description =
-      " I am currently a student with aspirations of becoming a Front-end Developer/Systems Engineer. Currently I am a Senior at George Mason University's School of Engineering, working towards my BS in Information Technology. Apart from my education at George Mason, I am taking various Web Development courses on my own free time.";
+      " Hey there! Currently I am a Senior at George Mason University's School of Engineering, working towards my BS in Information Technology with a focus on information security. I have a passion for building things, be it applications or computers. I also have an avid interest in all things tech and love learning about current and future innovations. Apart from my education at George Mason, I am currently working on getting my hands on some IT certifications.";
 
   return (
     <div className="active-dark">
@@ -53,8 +53,8 @@ const PortfolioLanding = () => {
                       <h1 className="title">
                         Hey there! I’m Nay <br />
                         <TextLoop>
-                          <span> Systems Engineer.</span>
                           <span> Developer.</span>
+                          <span> IT Enthusiast.</span>
                           <span> Student.</span>
                         </TextLoop>{' '}
                       </h1>

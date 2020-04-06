@@ -3,8 +3,8 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 class TabsTwo extends Component {
   render() {
-    let tab1 = 'Main skills',
-      tab2 = 'Experience',
+    let tab1 = 'Skills',
+      tab2 = 'Work Experience',
       tab3 = 'Education & Certifications';
 
     const { tabStyle } = this.props;
@@ -26,20 +26,31 @@ class TabsTwo extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          User experience design <span> - UI/UX</span>
+                          <span class="about-sub-heading">
+                            Web Development{' '}
+                          </span>
+                          <span> - UI/UX</span>
                           <br></br>
-                          Delight the user and make it work.
+                          <p>
+                            > Experience implementing front-end web development
+                            with tools <br></br> such as HTML5, CSS3, JS and
+                            React.
+                          </p>
                         </li>
                         <li>
-                          Web and user interface design
-                          <span> - Development</span>
-                          <br></br>
-                          Websites, web experiences
+                          <span class="about-sub-heading">Technical Work</span>
+                          <span> - Computer Systems</span>
+                          <br></br>> Working experience with building and
+                          maintaining personal computer systems.
                         </li>
                         <li>
-                          Interaction design <span> - Animation</span>
-                          <br></br>
-                          Create stunning animations.
+                          <span class="about-sub-heading">
+                            Software Proficient
+                          </span>{' '}
+                          <span> - Microsoft Office</span>
+                          <br></br>> Understanding of core office suite
+                          functionality. Experience working with Word,
+                          Powerpoint, and Excel.
                         </li>
                       </ul>
                     </div>
@@ -49,17 +60,21 @@ class TabsTwo extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          AFC Sushi<span> - SKN LLC</span>
+                          <span class="about-sub-heading">AFC Sushi</span>
+                          <span> - SKN LLC</span>
                           <br></br>
                           2019 - Current
                         </li>
                         <li>
-                          Team Member<span> - CAVA</span>
+                          <span class="about-sub-heading">Team Member</span>
+                          <span> - CAVA</span>
                           <br></br>
                           2018 - 2019
                         </li>
                         <li>
-                          Customer Service Clerk
+                          <span class="about-sub-heading">
+                            Customer Service Clerk
+                          </span>
                           <span> - Harris Teeter </span>
                           <br></br>
                           2015- 2018
@@ -72,13 +87,17 @@ class TabsTwo extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          Information Technology ( B.S. )
+                          <span class="about-sub-heading">
+                            Information Technology ( B.S. ){' '}
+                          </span>
                           <span> - George Mason University, Fairfax, VA</span>
                           <br></br>
                           2021
                         </li>
                         <li>
-                          Information Technology ( A.S. )
+                          <span class="about-sub-heading">
+                            Information Technology ( A.S. ){' '}
+                          </span>
                           <span>
                             {' '}
                             - Northern Virginia Community College, Annandale, VA{' '}
@@ -87,7 +106,7 @@ class TabsTwo extends Component {
                           2018
                         </li>
                         <li>
-                          CompTIA A+
+                          <span class="about-sub-heading">CompTIA A+ </span>
                           <span> - CompTIA </span>
                           <br></br>* In Progress *
                         </li>
