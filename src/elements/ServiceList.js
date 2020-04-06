@@ -37,7 +37,7 @@ const ServiceList = [
     icon: <FiSmile />,
     title: 'Customer Service',
     description:
-      '4 years of experience in a position where great customer service skills were a necessity in ensuring each customer had an excellent shopping experience and were satisfied with their trip.',
+      '5 years of experience in a position where great customer service skills were a necessity in ensuring each customer had an excellent shopping experience and were satisfied with their trip.',
   },
   {
     icon: <FiCloudLightning />,
