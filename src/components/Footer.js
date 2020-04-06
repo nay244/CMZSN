@@ -1,11 +1,13 @@
 import React from 'react';
-import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import FooterLogo from '../assets/images/logo/portfolio-logo-ext.png';
 
 const SocialShare = [
-  { Social: <FaGithub />, link: 'https://www.github.com/' },
-  { Social: <FaLinkedinIn />, link: 'https://www.linkedin.com/' },
-  { Social: <FaInstagram />, link: 'https://www.instagram.com/' },
+  { Social: <FaGithub />, link: 'https://github.com/nay244' },
+  {
+    Social: <FaLinkedinIn />,
+    link: 'https://www.linkedin.com/in/naaay-naing/',
+  },
 ];
 
 const Footer = () => {
@@ -30,7 +32,13 @@ const Footer = () => {
               <ul className="social-share rn-lg-size d-flex justify-content-center liststyle">
                 {SocialShare.map((val, i) => (
                   <li key={i}>
-                    <a href={`${val.link}`}>{val.Social}</a>
+                    <a
+                      href={`${val.link}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {val.Social}
+                    </a>
                   </li>
                 ))}
               </ul>

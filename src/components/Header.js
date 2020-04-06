@@ -5,9 +5,11 @@ import Scrollspy from 'react-scrollspy';
 import logo from '../assets/images/logo/portfolio-logo-2.png';
 
 const SocialShare = [
-  { Social: <FaGithub />, link: 'https://www.github.com/' },
-  { Social: <FaLinkedinIn />, link: 'https://www.linkedin.com/' },
-  { Social: <FaInstagram />, link: 'https://www.instagram.com/' },
+  { Social: <FaGithub />, link: 'https://github.com/nay244' },
+  {
+    Social: <FaLinkedinIn />,
+    link: 'https://www.linkedin.com/in/naaay-naing/',
+  },
 ];
 class Header extends Component {
   constructor(props) {
@@ -96,7 +98,13 @@ class Header extends Component {
               <ul className="social-share social-style--2 color-black d-flex justify-content-start liststyle">
                 {SocialShare.map((val, i) => (
                   <li key={i}>
-                    <a href={`${val.link}`}>{val.Social}</a>
+                    <a
+                      href={`${val.link}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {val.Social}
+                    </a>
                   </li>
                 ))}
               </ul>
