@@ -1,12 +1,16 @@
 import React from 'react';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import FooterLogo from '../assets/images/logo/portfolio-logo-ext.png';
 
 const SocialShare = [
-  { Social: <FaGithub />, link: 'https://github.com/nay244' },
+  { Social: <FaFacebook />, link: '' },
   {
-    Social: <FaLinkedinIn />,
-    link: 'https://www.linkedin.com/in/naaay-naing/',
+    Social: <FaTwitter />,
+    link: '/',
+  },
+  {
+    Social: <FaLinkedin />,
+    link: '/',
   },
 ];
 
@@ -47,7 +51,7 @@ const Footer = () => {
           <div className="col-lg-4 col-md-12 col-sm-12 col-12">
             <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
               <div className="text">
-                <p>Copyright © 2020 Nay Naing. All Rights Reserved.</p>
+                <p>Copyright © 2020 CMZSN Systems. All Rights Reserved.</p>
               </div>
             </div>
           </div>

@@ -12,25 +12,22 @@ import ServiceList from './elements/ServiceList';
 import Background from './assets/images/portfolio-hero.jpg';
 import portfolioImage from './assets/images/about/portfolio-self.png';
 import footerImage from './assets/images/about/footer-pic.png';
-import NayResume from './assets/images/Nay_Resume.pdf';
 
 const SlideList = [
   {
     textPosition: 'text-left',
-    category: 'Welcome to my portfolio!',
+    category: 'Introducing CMZSN Airport Systems',
     description: '',
-    buttonText: 'Resume',
-    buttonLink: NayResume,
   },
 ];
 const PortfolioLanding = () => {
-  let title = 'About Me',
+  let title = 'About Us',
     description =
-      " Hey there! Currently I am a Senior at George Mason University's School of Engineering, working towards my BS in Information Technology with a focus on information security. I have a passion for building things, be it applications or computers. I also have an avid interest in all things tech and love learning about current and future innovations. Apart from my education at George Mason, I am currently working on getting my hands on some IT certifications.";
+      "CMZSN System solutions support the efficient management of more than 100 airports globally. Our solutions enhance the passenger experience by keeping them up-to-speed with all events and developments related to their flights from the moment they book their flight all the way through take-off. All in all, these applications have already guided over 150 million travelers to their gates.";
 
   return (
     <div className="active-dark">
-      <Helmet pageTitle="Nay" />
+      <Helmet pageTitle="CMZSN Systems" />
 
       <Header homeLink="#home" />
       {/* Start Slider Area   */}
@@ -51,11 +48,12 @@ const PortfolioLanding = () => {
                     <div className={`inner ${value.textPosition}`}>
                       {value.category ? <span>{value.category}</span> : ''}
                       <h1 className="title">
-                        Hey there! I’m Nay <br />
+                        High Performance Airline Systems <br />
                         <TextLoop>
-                          <span> Developer.</span>
-                          <span> IT Enthusiast.</span>
-                          <span> Student.</span>
+                          <span> Connectivity.</span>
+                          <span> Digitization.</span>
+                          <span> Cloud and Infrastructure.</span>
+                          <span> security.</span>
                         </TextLoop>{' '}
                       </h1>
                       {value.description ? (
@@ -129,11 +127,9 @@ const PortfolioLanding = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                  <h2 className="title">Current Skill Set</h2>
+                  <h2 className="title">Airport Management</h2>
                   <p>
-                    Here are some of the skills I have picked up along the way
-                    on my journey into the IT industry. Always looking to expand
-                    my knowledge.
+                  Efficient end-to-end airport management
                   </p>
                 </div>
               </div>
@@ -159,10 +155,9 @@ const PortfolioLanding = () => {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                    <h2 className="title">My Latest Projects</h2>
+                    <h2 className="title">System Analysis and Design</h2>
                     <p>
-                      Here are three of my most recent projects. Want to see
-                      more? Click on that button right below.
+                      Flying high with ICT. Our System Design Models.
                     </p>
                   </div>
                 </div>
@@ -174,20 +169,7 @@ const PortfolioLanding = () => {
                   item="6"
                 />
               </div>
-              <div className="row">
-                <div className="col-lg-12">
-                  <div className="view-more-btn mt--60 mt_sm--30 text-center">
-                    <a
-                      className="rn-button-style--2 btn-solid"
-                      href="https://github.com/nay244?tab=repositories"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span>View Github</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -197,7 +179,7 @@ const PortfolioLanding = () => {
       {/* Start Contact Area */}
       <div id="contact" className="fix">
         <div className="rn-contact-area ptb--120 bg_color--1">
-          <Contact contactImages={footerImage} contactTitle="Contact Me." />
+          <Contact contactImages={footerImage} contactTitle="Contact Us." />
         </div>
       </div>
       {/* End Contact Area */}

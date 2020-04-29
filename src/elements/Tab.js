@@ -3,9 +3,9 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 class TabsTwo extends Component {
   render() {
-    let tab1 = 'Skills',
-      tab2 = 'Work Experience',
-      tab3 = 'Education & Certifications';
+    let tab1 = 'Networks',
+      tab2 = 'Cloud Computing',
+      tab3 = 'Security';
 
     const { tabStyle } = this.props;
     return (
@@ -27,31 +27,17 @@ class TabsTwo extends Component {
                       <ul>
                         <li>
                           <span class="about-sub-heading">
-                            Web Development{' '}
+                          Future-proof networks{' '}
                           </span>
-                          <span> - UI/UX</span>
+                          <span> - VPN Access / VoIP Integration</span>
                           <br></br>
                           <p>
-                            > Experience implementing front-end web applications
-                            with tools <br></br> such as HTML5, CSS3, JS and
-                            React.
+                            Business needs are constantly changing from day to day and hour to hour. Like so, the networks that support those businesses also need to be equally dynamic. 
+                            That means providing highly scalable bandwidth and enabling the rapid integration of new sites – anywhere in the world. 
+                            New access methods can be selected and combined on the basis of cost and technical criteria to create the ideal solution for the task in hand. 
+                            Corporate networks are better tailored and more efficient when the network infrastructure design is geared towards future needs.
                           </p>
                         </li>
-                        <li>
-                          <span class="about-sub-heading">Technical Work</span>
-                          <span> - Computer Systems</span>
-                          <br></br>> Working experience with building and
-                          maintaining personal computer systems.
-                        </li>
-                        <li>
-                          <span class="about-sub-heading">
-                            Software Proficient
-                          </span>{' '}
-                          <span> - Microsoft Office</span>
-                          <br></br>> Understanding of core office suite
-                          functionality. Experience working with Word,
-                          Powerpoint, and Excel.
-                        </li>
                       </ul>
                     </div>
                   </TabPanel>
@@ -60,24 +46,12 @@ class TabsTwo extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          <span class="about-sub-heading">AFC Sushi</span>
-                          <span> - SKN LLC</span>
+                          <span class="about-sub-heading">End-to-End Cloud Computing</span>
+                          <span> - Enterprise Solutions</span>
                           <br></br>
-                          2019 - Current
-                        </li>
-                        <li>
-                          <span class="about-sub-heading">Team Member</span>
-                          <span> - CAVA</span>
-                          <br></br>
-                          2018 - 2019
-                        </li>
-                        <li>
-                          <span class="about-sub-heading">
-                            Customer Service Clerk
-                          </span>
-                          <span> - Harris Teeter </span>
-                          <br></br>
-                          2015- 2018
+                          <p>
+                          Unlike cloud solutions for consumers, enterprise cloud solutions have a strong focus on security, performance, high availability, and seamless integration. Only at this level are enterprises able to scale their IT resources, even at short notice, in order to reliably adapt them to the actual needs, as the cloud makes the required resources available in the form of infrastructure, platforms, or software-as-a-service.
+                          </p>
                         </li>
                       </ul>
                     </div>
@@ -88,27 +62,11 @@ class TabsTwo extends Component {
                       <ul>
                         <li>
                           <span class="about-sub-heading">
-                            Information Technology ( B.S. ){' '}
+                            IT-Security{' '}
                           </span>
-                          <span> - George Mason University, Fairfax, VA</span>
+                          <span> - Security Needs Strategy</span>
                           <br></br>
-                          2021
-                        </li>
-                        <li>
-                          <span class="about-sub-heading">
-                            Information Technology ( A.S. ){' '}
-                          </span>
-                          <span>
-                            {' '}
-                            - Northern Virginia Community College, Annandale, VA{' '}
-                          </span>
-                          <br></br>
-                          2018
-                        </li>
-                        <li>
-                          <span class="about-sub-heading">CompTIA A+ </span>
-                          <span> - CompTIA </span>
-                          <br></br>* In Progress *
+                          <p>When companies move their business processes towards mobility, collaboration or the cloud, going without IT security is unthinkable. But a security concept is not only a challenge – it's also an opportunity.</p>
                         </li>
                       </ul>
                     </div>

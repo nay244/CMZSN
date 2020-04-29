@@ -1,49 +1,49 @@
 import React, { Component } from 'react';
 import {
-  FiCodesandbox,
-  FiRss,
-  FiMonitor,
+  FiBook,
   FiDatabase,
-  FiCloudLightning,
+  FiLayers,
   FiSmile,
+  FiZap,
+  FiUsers,
 } from 'react-icons/fi';
 
 const ServiceList = [
   {
-    icon: <FiCodesandbox />,
-    title: 'Coding',
+    icon: <FiBook />,
+    title: 'Resource Management',
     description:
-      'Experience working with basic functions of various programming languages such as JAVA, HTML, CSS, React, and PHP.',
+      'A resource management system (RMS) supports check-in counter allocation and baggage handling',
   },
   {
-    icon: <FiMonitor />,
-    title: 'Web Development',
+    icon: <FiZap />,
+    title: 'Real-Time Information',
     description:
-      'Experience working with front-end web applications and development tools such as HTML5, CSS3, JS and React.',
+      'The flight information display system (FIDS) provides passengers with real-time updates on screens and destination boards, ensuring the smooth flow of people',
+  },
+  {
+    icon: <FiUsers />,
+    title: 'Communication',
+    description:
+      'A state-of-the-art solution for message based communication, supporting and automating the airport’s business processes by minimizing manual user interaction and therefore improving overall efficiency',
   },
   {
     icon: <FiDatabase />,
-    title: 'Databases',
+    title: 'Big Data Analytics',
     description:
-      'Working knowledge of SQL programming and working with database software such as MySQL and PostgreSQL in performing basic search functions and creation of tables.',
+      'The AODB can be made available to a high number of different service providers at a given location, and supports airport management by leveraging powerful technologies such as big data analytics.',
   },
   {
-    icon: <FiRss />,
-    title: 'Networks',
+    icon: <FiLayers />,
+    title: 'End-to-End Solutions',
     description:
-      'Familiar with network architecture and concepts relating to setting up, testing and maintaining network switches and routers in a home environment.',
+      'Obtain flight related information via any internet connection – to the second – with any browser enabled device. ',
   },
   {
     icon: <FiSmile />,
-    title: 'Customer Service',
+    title: 'Customer Satisfaction',
     description:
-      '5 years of experience in a position where great customer service skills were a necessity in ensuring each customer had an excellent shopping experience and were satisfied with their trip.',
-  },
-  {
-    icon: <FiCloudLightning />,
-    title: 'Logical Thinking',
-    description:
-      'Able to observe and analyze reactions, and feedback from others and then draw conclusions based on input. Justify strategies, actions, and decisions based on the facts.',
+      'Each passenger’s perception of their airport experience is influenced by every interaction with the airport environment and staff.',
   },
 ];
 

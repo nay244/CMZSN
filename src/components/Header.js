@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import { FiX, FiMenu } from 'react-icons/fi';
 import Scrollspy from 'react-scrollspy';
 import logo from '../assets/images/logo/portfolio-logo-2.png';
 
 const SocialShare = [
-  { Social: <FaGithub />, link: 'https://github.com/nay244' },
+  { Social: <FaFacebook />, link: '' },
   {
-    Social: <FaLinkedinIn />,
-    link: 'https://www.linkedin.com/in/naaay-naing/',
+    Social: <FaTwitter />,
+    link: '/',
+  },
+  {
+    Social: <FaLinkedin />,
+    link: '/',
   },
 ];
 class Header extends Component {
@@ -82,10 +86,10 @@ class Header extends Component {
                   <a href="#about">About</a>
                 </li>
                 <li>
-                  <a href="#service">Skills</a>
+                  <a href="#service">Services</a>
                 </li>
                 <li>
-                  <a href="#portfolio">Portfolio</a>
+                  <a href="#portfolio">Design Models</a>
                 </li>
                 <li>
                   <a href="#contact">Contact</a>

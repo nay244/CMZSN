@@ -1,26 +1,40 @@
 import React, { Component } from 'react';
-import imageFaceLoc from '../assets/images/projects/portfolio-1.png';
-import imagePortfolioV1 from '../assets/images/projects/portfolio-2.png';
-import imageRoboFriends from '../assets/images/projects/portfolio-3.png';
+import imageClass from '../assets/images/projects/classDiagram.png';
+import imageSequence from '../assets/images/projects/sequenceDiagram.png';
+import imageState from '../assets/images/projects/statechartDiagram.png';
+import imageUseCase from '../assets/images/projects/usecaseDiagram.png';
+import imageActivity from '../assets/images/projects/activityDiagram.png';
 
 const PortfolioListContent = [
   {
-    image: imageFaceLoc,
-    title: 'FaceLoc',
-    techUsed: 'React, HTMl, CSS, mySQL, Clarifai API',
-    src: 'https://faceloc.herokuapp.com/',
+    image: imageClass,
+    title: 'Class Diagram',
+    techUsed: '',
+    src: '',
   },
   {
-    image: imagePortfolioV1,
-    title: 'Previous Portfolio',
-    techUsed: 'React, HTMl, CSS, jQuery',
-    src: 'https://nay244.github.io/nay_portfolio/',
+    image: imageSequence,
+    title: 'Sequence Diagram',
+    techUsed: '',
+    src: '',
   },
   {
-    image: imageRoboFriends,
-    title: 'RoboFriends',
-    techUsed: 'React, HTMl, CSS, Create React App',
-    src: 'https://nay244.github.io/robofriends/',
+    image: imageState,
+    title: 'Statechart Diagram',
+    techUsed: '',
+    src: '',
+  },
+  {
+    image: imageUseCase,
+    title: 'Use-Case Diagram',
+    techUsed: '',
+    src: '',
+  },
+  {
+    image: imageActivity,
+    title: 'Activity Diagram',
+    techUsed: '',
+    src: '',
   },
 ];
 
@@ -60,7 +74,7 @@ class PortfolioList extends Component {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      View Project
+                      View Details
                     </a>
                   </div>
                 </div>

@@ -19,14 +19,14 @@ class Contact extends Component {
               <div className="section-title text-left mb--50">
                 <h2 className="title">{this.props.contactTitle}</h2>
                 <p className="description">
-                  Please feel free to contact me. Connect with me via phone:{' '}
+                For comments, concerns or compliments about CMZSN Systems please call:{' '}
                   <a href="tel:+571266973">
-                    <span class="contact-links">(571) 266-9673</span>
+                    <span class="contact-links">(703) 123-4567</span>
                   </a>{' '}
                   or email:
                   <a href="mailto:naaay.naing@gmail.com">
                     {' '}
-                    <span class="contact-links">naaay.naing@gmail.com</span>
+                    <span class="contact-links">CMZSN@fakemail.com</span>
                   </a>{' '}
                 </p>
               </div>
